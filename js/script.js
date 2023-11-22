@@ -24,7 +24,10 @@ function gerarNewQrCode (){
 }
    
 
+enviaQr.addEventListener("click",function(){
+    gerarNewQrCode();
 
+})
 
 enviaQr.addEventListener("click", function(){
     enviaQr.innerHTML = "QR Code Gerado";

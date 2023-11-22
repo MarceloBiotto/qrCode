@@ -1,0 +1,43 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aquamarine;
+   
+}
+.container{
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    width: 400px;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.titulo__principal{
+    color: white;
+}
+
+.texto__principal{
+    color: white;
+}
+.qrCodigo{
+    margin-bottom: 16px;
+    height: 30px;
+}
+.campo__principal{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.qrGerado{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
